@@ -21,7 +21,7 @@ import org.eclipse.ui.internal.util.PrefUtil;
 import org.eclipse.ui.preferences.ScopedPreferenceStore;
 
 
-public class DemoWorkbench implements EntryPoint {
+public class DawnWorkbench implements EntryPoint {
 
   private static final String DEMO_PRESENTATION = "org.dawnsci.rap.application.presentation";
 
@@ -30,7 +30,7 @@ public class DemoWorkbench implements EntryPoint {
     String keyPresentationId = IWorkbenchPreferenceConstants.PRESENTATION_FACTORY_ID;
     String presentationId = prefStore.getString( keyPresentationId );
 
-    WorkbenchAdvisor worbenchAdvisor = new DemoWorkbenchAdvisor();
+    WorkbenchAdvisor worbenchAdvisor = new DawnWorkbenchAdvisor();
     if( DEMO_PRESENTATION.equals( presentationId ) ) {
       worbenchAdvisor = new DemoPresentationWorkbenchAdvisor();
     }

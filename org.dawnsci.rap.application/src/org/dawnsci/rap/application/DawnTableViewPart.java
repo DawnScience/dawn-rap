@@ -20,7 +20,7 @@ import org.eclipse.swt.widgets.*;
 import org.eclipse.ui.part.ViewPart;
 
 
-public class DemoTableViewPart extends ViewPart {
+public class DawnTableViewPart extends ViewPart {
 
   private static final int ROWS = 40;
   private static final int COLUMNS = 10;

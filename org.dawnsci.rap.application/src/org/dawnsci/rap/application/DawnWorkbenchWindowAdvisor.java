@@ -19,9 +19,9 @@ import org.eclipse.ui.*;
 import org.eclipse.ui.application.*;
 
 
-public class DemoWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
+public class DawnWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
 
-  public DemoWorkbenchWindowAdvisor(
+  public DawnWorkbenchWindowAdvisor(
     final IWorkbenchWindowConfigurer configurer )
   {
     super( configurer );

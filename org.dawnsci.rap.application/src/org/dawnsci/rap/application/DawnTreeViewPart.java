@@ -25,7 +25,7 @@ import org.eclipse.ui.part.ViewPart;
 import org.eclipse.ui.views.properties.*;
 
 
-public class DemoTreeViewPart extends ViewPart implements IDoubleClickListener {
+public class DawnTreeViewPart extends ViewPart implements IDoubleClickListener {
 
   private TreeViewer viewer;
   private IPropertySheetPage propertyPage;

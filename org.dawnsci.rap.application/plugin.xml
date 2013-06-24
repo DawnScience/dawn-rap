@@ -3,23 +3,23 @@
 <plugin>
 
    <extension
-         id="org.dawnsci.rap.application.demoentrypoints"
+         id="org.dawnsci.rap.application.Dawnentrypoints"
          point="org.eclipse.rap.ui.entrypoint">
       <entrypoint
             id="org.dawnsci.rap.application.workbench.default"
             path="/workbench"
-            class="org.dawnsci.rap.application.DemoWorkbench">
+            class="org.dawnsci.rap.application.DawnWorkbench">
       </entrypoint>
       <entrypoint
             id="org.dawnsci.rap.application.workbench.business"
             path="/business"
-            class="org.dawnsci.rap.application.DemoWorkbench"
+            class="org.dawnsci.rap.application.DawnWorkbench"
             brandingId="org.eclipse.rap.design.example.business.branding">
       </entrypoint>
       <entrypoint
             id="org.dawnsci.rap.application.workbench.fancy"
             path="/fancy"
-            class="org.dawnsci.rap.application.DemoWorkbench"
+            class="org.dawnsci.rap.application.DawnWorkbench"
             brandingId="org.eclipse.rap.design.example.fancy.branding">
       </entrypoint>
       <entrypoint
@@ -87,46 +87,46 @@
        </view>
        <view
              category="one"
-             class="org.dawnsci.rap.application.DemoChartViewPart"
+             class="org.dawnsci.rap.application.DawnChartViewPart"
              icon="icons/contact.gif"
-             id="org.dawnsci.rap.application.DemoChartViewPart"
+             id="org.dawnsci.rap.application.DawnChartViewPart"
              name="Chart"/>
        <view
              category="one"
-             class="org.dawnsci.rap.application.DemoTreeViewPart"
+             class="org.dawnsci.rap.application.DawnTreeViewPart"
              icon="icons/info.gif"
-             id="org.dawnsci.rap.application.DemoTreeViewPartII"
+             id="org.dawnsci.rap.application.DawnTreeViewPartII"
              name="View II"/>
        <view
              category="one"
-             class="org.dawnsci.rap.application.DemoTreeViewPart"
+             class="org.dawnsci.rap.application.DawnTreeViewPart"
              icon="icons/login.gif"
-             id="org.dawnsci.rap.application.DemoTreeViewPart"
+             id="org.dawnsci.rap.application.DawnTreeViewPart"
              name="Tree"/>
        <view
              category="two"
-             class="org.dawnsci.rap.application.DemoFormViewPart"
+             class="org.dawnsci.rap.application.DawnFormViewPart"
              icon="icons/register.gif"
-             id="org.dawnsci.rap.application.DemoFormViewPart"
+             id="org.dawnsci.rap.application.DawnFormViewPart"
              name="Form"/>
        <view
              category="two"
-             class="org.dawnsci.rap.application.DemoTableViewPart"
+             class="org.dawnsci.rap.application.DawnTableViewPart"
              icon="icons/search.gif"
-             id="org.dawnsci.rap.application.DemoTableViewPart"
+             id="org.dawnsci.rap.application.DawnTableViewPart"
              name="Table"/>
        <view
              category="two"
-             class="org.dawnsci.rap.application.DemoSelectionViewPart"
+             class="org.dawnsci.rap.application.DawnSelectionViewPart"
              icon="icons/status.gif"
-             id="org.dawnsci.rap.application.DemoSelectionViewPart"
+             id="org.dawnsci.rap.application.DawnSelectionViewPart"
              name="Selection View"/>
        <view
              allowMultiple="true"
              category="two"
-             class="org.dawnsci.rap.application.DemoBrowserViewPart"
+             class="org.dawnsci.rap.application.DawnBrowserViewPart"
              icon="icons/internal_browser.gif"
-             id="org.dawnsci.rap.application.DemoBrowserViewPart"
+             id="org.dawnsci.rap.application.DawnBrowserViewPart"
              name="Browser"/>
        <category
              id="one"
@@ -140,9 +140,9 @@
          point="org.eclipse.ui.viewActions">
       <viewContribution
             id="org.dawnsci.rap.application.viewContribution2"
-            targetID="org.dawnsci.rap.application.DemoTreeViewPart">
+            targetID="org.dawnsci.rap.application.DawnTreeViewPart">
          <action
-               class="org.dawnsci.rap.application.DemoTreeViewActionDelegate"
+               class="org.dawnsci.rap.application.DawnTreeViewActionDelegate"
                enablesFor="*"
                icon="icons/ttt.gif"
                id="org.dawnsci.rap.application.filterAction"
@@ -230,7 +230,7 @@
          state="true">
         <enablement>
            <objectClass
-                 name="org.dawnsci.rap.application.DemoTreeViewPart$BrokenTreeObject">
+                 name="org.dawnsci.rap.application.DawnTreeViewPart$BrokenTreeObject">
            </objectClass>
         </enablement>
      </decorator>

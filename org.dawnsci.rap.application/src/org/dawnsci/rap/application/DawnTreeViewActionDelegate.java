@@ -16,13 +16,13 @@ import org.eclipse.jface.viewers.*;
 import org.eclipse.ui.IViewActionDelegate;
 import org.eclipse.ui.IViewPart;
 
-public class DemoTreeViewActionDelegate implements IViewActionDelegate {
+public class DawnTreeViewActionDelegate implements IViewActionDelegate {
 
-  private DemoTreeViewPart viewpart;
+  private DawnTreeViewPart viewpart;
 
   public void init( IViewPart view ) {
-    if( view instanceof DemoTreeViewPart ) {
-      viewpart = ( DemoTreeViewPart )view;
+    if( view instanceof DawnTreeViewPart ) {
+      viewpart = ( DawnTreeViewPart )view;
     } else {
       throw new IllegalArgumentException();
     }

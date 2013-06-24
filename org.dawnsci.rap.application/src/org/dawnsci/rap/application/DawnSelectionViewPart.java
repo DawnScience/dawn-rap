@@ -22,7 +22,7 @@ import org.eclipse.ui.*;
 import org.eclipse.ui.part.ViewPart;
 
 
-public class DemoSelectionViewPart extends ViewPart {
+public class DawnSelectionViewPart extends ViewPart {
 
   private List list;
 

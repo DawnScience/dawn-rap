@@ -14,7 +14,7 @@ package org.dawnsci.rap.application;
 import org.eclipse.ui.application.*;
 
 
-public class DemoWorkbenchAdvisor extends WorkbenchAdvisor {
+public class DawnWorkbenchAdvisor extends WorkbenchAdvisor {
 
   public void initialize( IWorkbenchConfigurer configurer ) {
     getWorkbenchConfigurer().setSaveAndRestore( true );
@@ -28,6 +28,6 @@ public class DemoWorkbenchAdvisor extends WorkbenchAdvisor {
   public WorkbenchWindowAdvisor createWorkbenchWindowAdvisor(
     final IWorkbenchWindowConfigurer windowConfigurer )
   {
-    return new DemoWorkbenchWindowAdvisor( windowConfigurer );
+    return new DawnWorkbenchWindowAdvisor( windowConfigurer );
   }
 }

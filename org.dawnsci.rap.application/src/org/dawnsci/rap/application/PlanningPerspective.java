@@ -23,21 +23,21 @@ public class PlanningPerspective implements IPerspectiveFactory {
                                                  IPageLayout.LEFT,
                                                  0.25f,
                                                  editorArea );
-    topLeft.addView( "org.dawnsci.rap.application.DemoSelectionViewPart" );
-    topLeft.addView( "org.dawnsci.rap.application.DemoBrowserViewPart" );
+    topLeft.addView( "org.dawnsci.rap.application.DawnSelectionViewPart" );
+    topLeft.addView( "org.dawnsci.rap.application.DawnBrowserViewPart" );
     IFolderLayout bottomLeft = layout.createFolder( "bottomLeft",
                                                     IPageLayout.BOTTOM,
                                                     0.50f,
                                                     "topLeft" );
-    bottomLeft.addView( "org.dawnsci.rap.application.DemoTreeViewPart" );
+    bottomLeft.addView( "org.dawnsci.rap.application.DawnTreeViewPart" );
     IFolderLayout right = layout.createFolder( "right",
                                                IPageLayout.RIGHT,
                                                0.70f,
                                                editorArea );
-    right.addView( "org.dawnsci.rap.application.DemoTableViewPart" );
+    right.addView( "org.dawnsci.rap.application.DawnTableViewPart" );
     // add shortcuts to show view menu
-    layout.addShowViewShortcut( "org.dawnsci.rap.application.DemoChartViewPart" );
-    layout.addShowViewShortcut( "org.dawnsci.rap.application.DemoTreeViewPartII" );
+    layout.addShowViewShortcut( "org.dawnsci.rap.application.DawnChartViewPart" );
+    layout.addShowViewShortcut( "org.dawnsci.rap.application.DawnTreeViewPartII" );
     // add shortcut for other perspective
     layout.addPerspectiveShortcut( "org.dawnsci.rap.application.perspective" );
   }

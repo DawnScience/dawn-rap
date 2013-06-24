@@ -19,7 +19,7 @@ import org.eclipse.swt.widgets.*;
 import org.eclipse.ui.part.ViewPart;
 
 
-public class DemoChartViewPart extends ViewPart {
+public class DawnChartViewPart extends ViewPart {
 
   private Bar[] bars;
 

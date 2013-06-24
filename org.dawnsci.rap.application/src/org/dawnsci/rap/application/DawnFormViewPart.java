@@ -19,7 +19,7 @@ import org.eclipse.ui.forms.widgets.*;
 import org.eclipse.ui.part.ViewPart;
 
 
-public class DemoFormViewPart extends ViewPart {
+public class DawnFormViewPart extends ViewPart {
 
   @Override
   public void createPartControl( Composite parent ) {

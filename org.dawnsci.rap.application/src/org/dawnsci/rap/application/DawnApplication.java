@@ -17,7 +17,7 @@ import org.eclipse.equinox.app.IApplicationContext;
 public class DawnApplication implements IApplication {
 
   public Object start( IApplicationContext context ) throws Exception {
-    new DemoWorkbench().createUI();
+    new DawnWorkbench().createUI();
     return new Integer( 0 );
   }
 

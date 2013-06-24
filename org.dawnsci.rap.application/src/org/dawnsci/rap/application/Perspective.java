@@ -23,29 +23,29 @@ public class Perspective implements IPerspectiveFactory {
                                                  IPageLayout.LEFT,
                                                  0.25f,
                                                  editorArea );
-    topLeft.addView( "org.dawnsci.rap.application.DemoChartViewPart" );
-    topLeft.addView( "org.dawnsci.rap.application.DemoTreeViewPartII" );
+    topLeft.addView( "org.dawnsci.rap.application.DawnChartViewPart" );
+    topLeft.addView( "org.dawnsci.rap.application.DawnTreeViewPartII" );
     IFolderLayout bottomLeft = layout.createFolder( "bottomLeft",
                                                     IPageLayout.BOTTOM,
                                                     0.50f,
                                                     "topLeft" );
-    bottomLeft.addView( "org.dawnsci.rap.application.DemoTreeViewPart" );
+    bottomLeft.addView( "org.dawnsci.rap.application.DawnTreeViewPart" );
     IFolderLayout bottom = layout.createFolder( "bottom",
                                                  IPageLayout.BOTTOM,
                                                  0.60f,
                                                  editorArea );
-    bottom.addView( "org.dawnsci.rap.application.DemoTableViewPart" );
-    bottom.addView( "org.dawnsci.rap.application.DemoFormViewPart" );
+    bottom.addView( "org.dawnsci.rap.application.DawnTableViewPart" );
+    bottom.addView( "org.dawnsci.rap.application.DawnFormViewPart" );
     IFolderLayout topRight = layout.createFolder( "topRight",
                                                   IPageLayout.RIGHT,
                                                   0.70f,
                                                   editorArea );
-    topRight.addView( "org.dawnsci.rap.application.DemoSelectionViewPart" );
-    topRight.addView( "org.dawnsci.rap.application.DemoBrowserViewPart" );
+    topRight.addView( "org.dawnsci.rap.application.DawnSelectionViewPart" );
+    topRight.addView( "org.dawnsci.rap.application.DawnBrowserViewPart" );
 
     // add shortcuts to show view menu
-    layout.addShowViewShortcut("org.dawnsci.rap.application.DemoChartViewPart");
-    layout.addShowViewShortcut("org.dawnsci.rap.application.DemoTreeViewPartII");
+    layout.addShowViewShortcut("org.dawnsci.rap.application.DawnChartViewPart");
+    layout.addShowViewShortcut("org.dawnsci.rap.application.DawnTreeViewPartII");
 
     // add shortcut for other perspective
     layout.addPerspectiveShortcut( "org.dawnsci.rap.application.perspective.planning" );

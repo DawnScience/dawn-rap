@@ -11,7 +11,7 @@
  ******************************************************************************/
 package org.dawnsci.rap.application;
 
-import org.dawnsci.rap.application.DemoTreeViewPart.TreeObject;
+import org.dawnsci.rap.application.DawnTreeViewPart.TreeObject;
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.swt.SWT;
@@ -20,7 +20,7 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.ui.*;
 import org.eclipse.ui.part.ViewPart;
 
-public class DemoBrowserViewPart extends ViewPart {
+public class DawnBrowserViewPart extends ViewPart {
 
   Browser browser;
   private static String BIRT_DEMO

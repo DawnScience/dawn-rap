@@ -158,7 +158,7 @@ public class DawnActionBarAdvisor extends ActionBarAdvisor {
         browserIndex++;
         try {
           window.getActivePage()
-            .showView( "org.dawnsci.rap.application.DemoBrowserViewPart",
+            .showView( "org.dawnsci.rap.application.DawnBrowserViewPart",
                        String.valueOf( browserIndex ),
                        IWorkbenchPage.VIEW_ACTIVATE );
         } catch( PartInitException e ) {
