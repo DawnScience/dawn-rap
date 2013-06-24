@@ -35,7 +35,7 @@ public class DawnWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
   
   public void preWindowOpen() {
     IWorkbenchWindowConfigurer configurer = getWindowConfigurer();
-    configurer.setInitialSize( new Point( 800, 600 ) );
+    configurer.setInitialSize( new Point( 1024, 768 ) );
     configurer.setShowCoolBar( true );
     configurer.setShowPerspectiveBar( true );
     configurer.setTitle( "Dawn" );
