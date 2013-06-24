@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.dawnsci.rap.application;singleton:=true
+Require-Bundle: org.eclipse.rap.ui;bundle-version="[2.1.0,3.0.0)",org.
+ eclipse.rap.ui.views;bundle-version="[2.1.0,3.0.0)",org.eclipse.rap.u
+ i.forms;bundle-version="[2.1.0,3.0.0)"
+Export-Package: org.dawnsci.rap.application;version="2.1.0";x-internal:=true,
+ org.dawnsci.rap.application.actions;version="2.1.0";x-internal:=true,
+ org.dawnsci.rap.application.editor;version="2.1.0";x-internal:=true,
+ org.dawnsci.rap.application.presentation;version="2.1.0";x-internal:=true,
+ org.dawnsci.rap.application.wizard;version="2.1.0";x-internal:=true
+Bundle-Version: 2.1.0.20130605-1337
+Build-Jdk: 1.5.0_22
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Name: %Bundle-Name
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Import-Package: javax.servlet.http;version="[2.3.0,4.0.0)"
+Bundle-ManifestVersion: 2
+
+
