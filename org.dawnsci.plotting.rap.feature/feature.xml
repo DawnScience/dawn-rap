@@ -18,13 +18,6 @@
    </license>
 
    <plugin
-         id="org.dawb.common.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.dawb.common.util"
          download-size="0"
          install-size="0"
@@ -103,6 +96,20 @@
 
    <plugin
          id="org.dawnsci.plotting.system"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.draw2d"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.draw2d.compatibility"
          download-size="0"
          install-size="0"
          version="0.0.0"
