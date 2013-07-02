@@ -1,0 +1,35 @@
+Dependency-Note: Do not add dependencies to this plugin without discussing. For instance
+ uk.ac.diamond.scisoft.analysis.rcp is right out. Do not add dependency on org.dawb.common.ui, this
+ is bad for plotting using RAP.
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plotting
+Bundle-SymbolicName: org.dawnsci.plotting.rap;singleton:=true
+Bundle-Version: 1.2.0.qualifier
+Bundle-Activator: org.dawnsci.plotting.Activator
+Bundle-Vendor: Diamond Light Source Ltd.
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.core.runtime,
+ javax.vecmath;bundle-version="1.5.2",
+ org.dawb.common.services;bundle-version="1.2.0",
+ org.dawb.common.util;bundle-version="1.2.0",
+ ncsa.hdf;bundle-version="2.8.0",
+ org.dawnsci.plotting.api.rap;bundle-version="1.0.0",
+ uk.ac.diamond.scisoft.analysis;bundle-version="1.1.0",
+ uk.ac.diamond.scisoft.analysis.api;bundle-version="1.0.0",
+ org.dawnsci.common.widgets.rap;bundle-version="1.2.0",
+ org.eclipse.rap.rwt;bundle-version="2.1.0",
+ org.eclipse.rap.jface;bundle-version="2.1.0",
+ org.eclipse.core.resources;bundle-version="3.8.1",
+ org.eclipse.rap.jface.databinding;bundle-version="2.1.0",
+ org.eclipse.rap.ui;bundle-version="2.1.0",
+ org.eclipse.rap.draw2d;bundle-version="1.5.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: org.dawnsci.plotting,
+ org.dawnsci.plotting.print,
+ org.dawnsci.plotting.roi,
+ org.dawnsci.plotting.util
+Import-Package: com.thoughtworks.xstream.core.util,
+ org.dawb.workbench.jmx,
+ org.slf4j;version="1.5.6"
+Bundle-ClassPath: .

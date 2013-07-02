@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+    <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="org.dawnsci.plotting.preference.PlottingPreferenceInitializer">
+      </initializer>
+   </extension>
+    <extension
+         point="org.eclipse.ui.views">
+      <view
+            category="org.dawb.workbench.application.data.analysis.tools"
+            class="org.dawnsci.plotting.views.ToolPageView"
+            icon="icons/plot-tool-1d.png"
+            id="org.dawb.workbench.plotting.views.toolPageView.1D"
+            name="XY Tools"
+            restorable="true">
+      </view>
+      <view
+            category="org.dawb.workbench.application.data.analysis.tools"
+            class="org.dawnsci.plotting.views.ToolPageView"
+            icon="icons/plot-tool-2d.png"
+            id="org.dawb.workbench.plotting.views.toolPageView.2D"
+            name="Image Tools"
+            restorable="true">
+      </view>
+      <view
+            category="org.dawb.workbench.application.data.analysis.tools"
+            class="org.dawnsci.plotting.views.ToolPageView"
+            icon="icons/plot-tool-any.png"
+            id="org.dawb.workbench.plotting.views.toolPageView.3D"
+            name="3D Tools"
+            restorable="true">
+      </view>
+      <view
+            category="org.dawb.workbench.application.data.analysis.tools"
+            class="org.dawnsci.plotting.views.ToolPageView"
+            icon="icons/plot-tool-any.png"
+            id="org.dawb.workbench.plotting.views.toolPageView.1D_and_2D"
+            name="Tool"
+            restorable="true">
+      </view>
+      <view
+            allowMultiple="true"
+            category="org.dawb.workbench.application.data.analysis.tools"
+            class="org.dawnsci.plotting.views.ToolPageView"
+            icon="icons/plot-tool-any.png"
+            id="org.dawb.workbench.plotting.views.toolPageView.fixed"
+            name=" "
+            restorable="true">
+      </view>
+      <category
+            id="org.dawb.workbench.application.data.analysis.tools"
+            name="Data Analysis - Tools">
+      </category>
+   </extension>
+   <extension
+         point="org.eclipse.ui.services">
+      <serviceFactory
+            factoryClass="org.dawnsci.plotting.service.ClassLoaderService">
+         <service
+               serviceClass="org.dawb.common.services.IClassLoaderService">
+         </service>
+      </serviceFactory>
+      <serviceFactory
+            factoryClass="org.dawnsci.plotting.expression.ExpressionObjectServiceImpl">
+         <service
+               serviceClass="org.dawb.common.services.IExpressionObjectService">
+         </service>
+      </serviceFactory>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="org.dawnsci.plotting.command.ExportLineTraceCommand"
+            id="org.dawnsci.plotting.export.line.trace.command"
+            name="Export line trace">
+      </command>
+   </extension>
+
+</plugin>

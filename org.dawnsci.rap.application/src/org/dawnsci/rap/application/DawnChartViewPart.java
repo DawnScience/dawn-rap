@@ -47,8 +47,8 @@ public class DawnChartViewPart extends ViewPart {
 		
 		
 		final IDataset x = AbstractDataset.arange(100, AbstractDataset.INT32);
-		final IDataset y = Random.rand(0, 100, new int[]{100});
-		plottingSystem.createPlot1D(x, Arrays.asList(y), null);
+		final IDataset image= Random.rand(new int[]{1024,1024});
+		plottingSystem.createPlot2D(image, null, null);
 		
 		
 	}

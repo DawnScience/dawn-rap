@@ -1,0 +1,29 @@
+Dependency-Note: Please do not add dependencies on draw2d here. The API is supposed
+ to be designed to allow swapping of other swt and javafx plotting.
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plotting API
+Bundle-SymbolicName: org.dawnsci.plotting.api.rap;singleton:=true
+Bundle-Version: 1.2.0.qualifier
+Bundle-Vendor: Diamond Light Source
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.core.commands;bundle-version="3.6.1",
+ org.eclipse.core.runtime;bundle-version="3.8.0",
+ uk.ac.diamond.scisoft.analysis.api;bundle-version="1.0.0",
+ org.eclipse.rap.ui;bundle-version="2.1.0",
+ com.springsource.slf4j.api;bundle-version="1.5.6"
+Import-Package: org.eclipse.jface.action,
+ org.eclipse.jface.resource,
+ org.eclipse.jface.viewers,
+ org.eclipse.swt,
+ org.eclipse.swt.graphics,
+ org.eclipse.swt.widgets,
+ org.slf4j;version="1.5.6"
+Export-Package: org.dawnsci.plotting.api,
+ org.dawnsci.plotting.api.annotation,
+ org.dawnsci.plotting.api.axis,
+ org.dawnsci.plotting.api.histogram,
+ org.dawnsci.plotting.api.region,
+ org.dawnsci.plotting.api.tool,
+ org.dawnsci.plotting.api.trace,
+ org.dawnsci.plotting.api.preferences

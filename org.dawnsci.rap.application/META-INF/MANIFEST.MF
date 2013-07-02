@@ -5,7 +5,7 @@ Bundle-SymbolicName: org.dawnsci.rap.application;singleton:=true
 Require-Bundle: org.eclipse.rap.ui;bundle-version="[2.1.0,3.0.0)",
  org.eclipse.rap.ui.views;bundle-version="[2.1.0,3.0.0)",
  org.eclipse.rap.ui.forms;bundle-version="[2.1.0,3.0.0)",
- org.dawnsci.plotting.api;bundle-version="1.2.0",
+ org.dawnsci.plotting.api.rap;bundle-version="1.2.0",
  uk.ac.diamond.scisoft.analysis;bundle-version="1.3.0",
  uk.ac.diamond.scisoft.analysis.api;bundle-version="1.0.0"
 Export-Package: org.dawnsci.rap.application;version="2.1.0";x-internal:=true,
