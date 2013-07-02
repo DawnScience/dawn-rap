@@ -10,6 +10,8 @@
  ******************************************************************************/
 package org.dawnsci.rap.application;
 
+import java.util.Arrays;
+
 import org.dawnsci.plotting.api.IPlottingSystem;
 import org.dawnsci.plotting.api.PlotType;
 import org.dawnsci.plotting.api.PlottingFactory;
@@ -18,6 +20,10 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.ui.part.ViewPart;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import uk.ac.diamond.scisoft.analysis.dataset.AbstractDataset;
+import uk.ac.diamond.scisoft.analysis.dataset.IDataset;
+import uk.ac.diamond.scisoft.analysis.dataset.Random;
 
 
 public class DawnChartViewPart extends ViewPart {
@@ -38,6 +44,13 @@ public class DawnChartViewPart extends ViewPart {
 	public void createPartControl( Composite parent ) {
 
 		plottingSystem.createPlotPart(parent, "Test Plot", getViewSite().getActionBars(), PlotType.XY, this);
+		
+		
+		final IDataset x = AbstractDataset.arange(100, AbstractDataset.INT32);
+		final IDataset y = Random.rand(0, 100, new int[]{100});
+		plottingSystem.createPlot1D(x, Arrays.asList(y), null);
+		
+		
 	}
 
 	@Override
