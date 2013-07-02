@@ -10,8 +10,6 @@
  ******************************************************************************/
 package org.dawnsci.rap.application;
 
-import java.util.Arrays;
-
 import org.dawnsci.plotting.api.IPlottingSystem;
 import org.dawnsci.plotting.api.PlotType;
 import org.dawnsci.plotting.api.PlottingFactory;
@@ -26,13 +24,13 @@ import uk.ac.diamond.scisoft.analysis.dataset.IDataset;
 import uk.ac.diamond.scisoft.analysis.dataset.Random;
 
 
-public class DawnChartViewPart extends ViewPart {
+public class TestImagePlot extends ViewPart {
 
-	private static final Logger logger = LoggerFactory.getLogger(DawnChartViewPart.class);
+	private static final Logger logger = LoggerFactory.getLogger(TestImagePlot.class);
 
 	private IPlottingSystem plottingSystem;
 
-	public DawnChartViewPart() {
+	public TestImagePlot() {
 		try {
 			this.plottingSystem = PlottingFactory.createPlottingSystem();
 		} catch (Exception e) {

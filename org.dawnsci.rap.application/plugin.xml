@@ -79,18 +79,25 @@
    </extension>
 
    <extension point="org.eclipse.ui.views">
+      <view
+            category="one"
+            class="org.dawnsci.rap.application.TestLinePlot"
+            icon="icons/ascii_editor.png"
+            id="org.dawnsci.rap.application.TestLinePlot"
+            name="Image">
+      </view>
+       <view
+             category="one"
+             class="org.dawnsci.rap.application.TestImagePlot"
+             icon="icons/image_editor.png"
+             id="org.dawnsci.rap.application.TestImagePlot"
+             name="Image"/>
        <view
              class="org.eclipse.ui.ExtensionFactory:progressView"
              icon= "icons/pview.gif"
              id="org.eclipse.ui.views.ProgressView"
              name="Progress">
        </view>
-       <view
-             category="one"
-             class="org.dawnsci.rap.application.DawnChartViewPart"
-             icon="icons/contact.gif"
-             id="org.dawnsci.rap.application.DawnChartViewPart"
-             name="Chart"/>
        <view
              category="one"
              class="org.dawnsci.rap.application.DawnTreeViewPart"

@@ -3,17 +3,17 @@ Dependency-note: This plugin should be vanilla (eclipse / jdk dependencies)
  org.dawb.commmon.xxx, org.csstudio.xxx pluing dependency, scisoft.analysis.
 Bundle-ManifestVersion: 2
 Bundle-Name: Draw2d
-Bundle-SymbolicName: org.dawnsci.plotting.draw2d.rap
+Bundle-SymbolicName: org.dawnsci.plotting.draw2d
 Bundle-Version: 1.2.0.qualifier
 Bundle-Activator: org.dawnsci.plotting.draw2d.Activator
 Bundle-Vendor: Diamond Light Source
 Require-Bundle: org.eclipse.core.runtime,
- org.csstudio.swt.xygraph.rap;bundle-version="1.1.0",
+ org.csstudio.swt.xygraph;bundle-version="1.1.0",
  org.csstudio.swt.widgets;bundle-version="2.1.0",
  org.dawb.common.services;bundle-version="1.2.0",
  org.dawb.common.util;bundle-version="1.2.0",
  uk.ac.diamond.scisoft.analysis;bundle-version="1.3.0",
- org.dawnsci.plotting.api.rap;bundle-version="1.0.0",
+ org.dawnsci.plotting.api;bundle-version="1.0.0",
  org.eclipse.rap.draw2d;bundle-version="1.5.0",
  org.eclipse.rap.ui;bundle-version="2.1.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6

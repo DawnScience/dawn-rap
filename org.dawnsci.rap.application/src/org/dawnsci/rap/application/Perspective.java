@@ -23,7 +23,8 @@ public class Perspective implements IPerspectiveFactory {
                                                  IPageLayout.LEFT,
                                                  0.25f,
                                                  editorArea );
-    topLeft.addView( "org.dawnsci.rap.application.DawnChartViewPart" );
+    topLeft.addView( "org.dawnsci.rap.application.TestLinePlot" );
+    topLeft.addView( "org.dawnsci.rap.application.TestImagePlot" );
     topLeft.addView( "org.dawnsci.rap.application.DawnTreeViewPartII" );
     IFolderLayout bottomLeft = layout.createFolder( "bottomLeft",
                                                     IPageLayout.BOTTOM,
