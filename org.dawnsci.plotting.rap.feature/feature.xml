@@ -17,6 +17,18 @@
       [Enter License Description here.]
    </license>
 
+   <includes
+         id="uk.ac.diamond.scisoft.analysis.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.rap.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.rap.sdk.feature"
+         version="0.0.0"/>
+
    <plugin
          id="org.dawb.common.util"
          download-size="0"
@@ -81,20 +93,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.rap.draw2d"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.rap.draw2d.compatibility"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="com.thoughtworks.xstream"
          download-size="0"
          install-size="0"
@@ -117,6 +115,41 @@
 
    <plugin
          id="com.springsource.ch.qos.logback.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.swt.widgets"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.swt.xygraph"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.junit4"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.dawnsci.common.widgets"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.dawnsci.plotting"
          download-size="0"
          install-size="0"
          version="0.0.0"

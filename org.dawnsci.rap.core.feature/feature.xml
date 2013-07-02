@@ -37,9 +37,33 @@
          id="org.eclipse.rap.equinox.target.feature"
          version="0.0.0"/>
 
-   <includes
-         id="org.eclipse.rap.sdk.feature"
-         version="0.0.0"/>
+   <requires>
+      <import plugin="com.springsource.ch.qos.logback.classic"/>
+      <import plugin="org.eclipse.rap.ui" version="2.1.0" match="compatible"/>
+      <import plugin="org.eclipse.rap.ui.views" version="2.1.0" match="compatible"/>
+      <import plugin="org.eclipse.rap.ui.forms" version="2.1.0" match="compatible"/>
+      <import plugin="org.dawnsci.plotting.api" version="1.2.0" match="greaterOrEqual"/>
+      <import plugin="javax.servlet"/>
+      <import plugin="org.eclipse.core.runtime" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.rap.rwt" version="2.1.0" match="compatible"/>
+      <import plugin="org.eclipse.rap.jface" version="2.1.0" match="compatible"/>
+      <import plugin="org.eclipse.rap.ui.workbench" version="2.1.0" match="compatible"/>
+      <import plugin="org.eclipse.core.expressions" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.osgi.services" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.core.runtime" version="3.1.0" match="compatible"/>
+      <import plugin="com.ibm.icu.base"/>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="org.eclipse.core.runtime" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.help" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.help" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.http.registry"/>
+      <import plugin="org.eclipse.rap.jface.databinding" version="2.1.0" match="compatible"/>
+      <import plugin="org.eclipse.core.databinding.property" version="1.2.0" match="compatible"/>
+      <import plugin="org.eclipse.core.databinding.observable" version="1.2.0" match="compatible"/>
+      <import plugin="org.eclipse.rap.rwt.osgi"/>
+      <import plugin="org.dawb.common.services" version="1.2.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.rap.ui" version="2.1.0" match="greaterOrEqual"/>
+   </requires>
 
    <plugin
          id="com.springsource.slf4j.api"
@@ -85,6 +109,89 @@
 
    <plugin
          id="org.dawnsci.rap.workbench.service"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.springsource.slf4j.org.apache.commons.logging"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.springsource.net.sf.cglib"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jdom"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.dom4j"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.resources"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.rwt"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.junit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="com.ibm.icu"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.draw2d"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.rwt.osgi"
          download-size="0"
          install-size="0"
          version="0.0.0"
