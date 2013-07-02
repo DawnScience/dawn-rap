@@ -38,7 +38,7 @@ public class DawnWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
     configurer.setInitialSize( new Point( 1024, 768 ) );
     configurer.setShowCoolBar( true );
     configurer.setShowPerspectiveBar( true );
-    configurer.setTitle( "Dawn" );
+    configurer.setTitle( "Data Analysis Workbench - web version 1.0" );
     configurer.setShellStyle( SWT.TITLE | SWT.MAX | SWT.RESIZE );
     configurer.setShowProgressIndicator( true );
   }
