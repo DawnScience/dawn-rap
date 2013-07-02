@@ -25,27 +25,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.dawnsci.common.widgets"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.dawnsci.doe"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.dawnsci.io"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.dawnsci.plotting.api"
          download-size="0"
          install-size="0"
@@ -117,6 +96,13 @@
 
    <plugin
          id="com.thoughtworks.xstream"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.dawb.workbench.jmx"
          download-size="0"
          install-size="0"
          version="0.0.0"

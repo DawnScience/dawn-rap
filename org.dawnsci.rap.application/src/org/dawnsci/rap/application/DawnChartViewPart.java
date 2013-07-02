@@ -10,9 +10,9 @@
  ******************************************************************************/
 package org.dawnsci.rap.application;
 
-import org.dawb.common.ui.plot.PlottingFactory;
 import org.dawnsci.plotting.api.IPlottingSystem;
 import org.dawnsci.plotting.api.PlotType;
+import org.dawnsci.plotting.api.PlottingFactory;
 import org.dawnsci.plotting.api.tool.IToolPageSystem;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.ui.part.ViewPart;
